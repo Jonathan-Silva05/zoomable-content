@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+#zoomable {
+  background-color: #f0f0f0;
+  border: solid darkred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+  transition: transform 0.2s;
+  transform-origin: center center;
+}
+
+.button {
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  position: absolute;
+  z-index: 100;
+}
